@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+
+# Allow all crawlers to access the site
+# If you want to block all crawlers, uncomment the line above
+# If you want to allow all crawlers, keep the current configuration
+
+# Sitemap location (uncomment and update when you have a sitemap)
+# Sitemap: https://yourdomain.com/sitemap.xml 
