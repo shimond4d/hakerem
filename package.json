@@ -1,0 +1,21 @@
+{
+  "name": "kerem-page",
+  "version": "1.0.0",
+  "description": "Kerem Hebrew page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx http-server -p 3000 -o -c-1",
+    "serve": "python3 -m http.server 3000"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "hebrew",
+    "kerem",
+    "html"
+  ],
+  "author": "",
+  "license": "MIT"
+}
