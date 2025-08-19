@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>הכרם</title>
+    <!-- <meta name="robots" content="noindex, nofollow" /> -->
+    <title>הכרם - אתר היכרויות לדתיים ומסורתיים</title>
+    <meta
+      name="description"
+      content="הכרם - אתר להיכרויות לדתיים, לדתיים לאומיים, לשומרי מסורת, לחרדים ועוד. הרשמה והתחברות למציאת אהבה אמיתית."
+    />
+
     <link rel="stylesheet" href="assets/scss/keremPage.scss" />
     <style>
-        
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
       .kerem-page {
         display: flex;
         justify-content: center;
@@ -48,7 +57,12 @@
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(0deg, #59316e 0%, #59316e50 50%, #59316e14 100%);
+        background: linear-gradient(
+          0deg,
+          #59316e 0%,
+          #59316e50 50%,
+          #59316e14 100%
+        );
         opacity: 1;
         pointer-events: none;
         z-index: 1;
@@ -56,7 +70,7 @@
 
       .kerem-image-wrapper .kerem-quote {
         position: absolute;
-        top: 120px;
+        top: 85px;
         width: 100%;
         text-align: center;
         font-size: 1.4rem;
@@ -98,11 +112,12 @@
         border-radius: 50px;
         padding: 16px 32px;
         font-size: 32px;
-        font-weight: 500;
+        /* font-weight: 500; */
         cursor: pointer;
         margin-top: 16px;
         transition: background 0.3s;
         min-width: 300px;
+        text-decoration: none;
       }
 
       .kerem-btn:hover {
@@ -126,30 +141,43 @@
     <div class="kerem-page">
       <div class="kerem-container">
         <div class="kerem-image-wrapper">
-          <img src="assets/images/bg-kerem.svg" alt="רקע הכרם" class="kerem-bg" />
+          <img
+            src="assets/images/bg-kerem.svg"
+            alt="רקע הכרם"
+            class="kerem-bg"
+          />
           <div class="kerem-quote">"צאינה וראינה בנות ציון... במלך שלמה"</div>
         </div>
 
         <div class="kerem-content">
-          <img src="assets/images/logo-kerem.svg" alt="הכרם" class="kerem-logo" />
+          <img
+            src="assets/images/logo-kerem.svg"
+            alt="הכרם"
+            class="kerem-logo"
+          />
 
-          <p>יין טוב משתבח עם השנים, כך אנחנו מאמינים שאהבה וזוגיות אמיתית נבנות לאט, מתעדנות, מבשילות ומשתבחות.</p>
           <p>
-            בט"ו באב – היום הכי רומנטי בלוח השנה היהודי, בנות ישראל היו יוצאות לחולל בכרמים. ושם, בין השורות, בין
-            הענבים, היו נרקמות אהבות אמיתיות.
+            יין טוב משתבח עם השנים, כך אנחנו מאמינים שאהבה וזוגיות אמיתית נבנות
+            לאט, מתעדנות, מבשילות ומשתבחות.
           </p>
           <p>
-            "הכרם", ממשיך את המסורת המיוחדת הזו יחד עם הבטחה לעתיד. וזה המקום שבו גם אתם בע"ה, תוכלו למצוא את הלב שמדבר
-            בשפה שלכם.
+            בט"ו באב - היום הכי רומנטי בלוח השנה היהודי, בנות ישראל היו יוצאות
+            לחולל בכרמים. ושם, בין השורות, בין הענבים, היו נרקמות אהבות אמיתיות.
+          </p>
+          <p>
+            "הכרם", ממשיך את המסורת המיוחדת הזו יחד עם הבטחה לעתיד. וזה המקום
+            שבו גם אתם בע"ה, תוכלו למצוא את הלב שמדבר בשפה שלכם.
           </p>
 
-          <button class="kerem-btn">התחברות</button>
+          <a href="https://www.date4dos.co.il/" class="kerem-btn"> התחברות </a>
 
           <div class="kerem-footer">
-            צריכ/ה עזרה? <a href="#">לחצ/י ליצירת קשר</a>
+            צריכ/ה עזרה?
+            <a href="#" rel="nofollow">לחצ/י ליצירת קשר</a>
             <br />
             בהתחברותך לאפליקציה הנך מאשר/ת שקראת והנך מסכימ/ה ל
-            <a href="#">מדיניות האפליקציה</a>, <a href="#">מדיניות הפרטיות</a>
+            <a href="#" rel="nofollow">מדיניות האפליקציה</a>,
+            <a href="#" rel="nofollow">מדיניות הפרטיות</a>
             ולקבלת חומר פרסומי.
           </div>
         </div>
