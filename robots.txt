@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 
 # Allow all crawlers to access the site
 # If you want to block all crawlers, uncomment the line above
